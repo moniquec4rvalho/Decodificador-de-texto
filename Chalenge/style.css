@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+#logo {
+  display: flex;
+  left: 36.67%;
+  right: 37.43%;
+  padding-top: 24px;
+  padding-left: 64px;
+  top: 0%;
+  bottom: 0%;
+}
+body {
+  display: flex;
+  background-color: #f3f5fc;
+  max-height: 100%;
+  font-size: 100%;
+  gap: 80px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+#digiteseutexto {
+  width: 680px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+}
+#warning {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+textarea {
+  resize: none;
+  width: 680px;
+  height: 1fr;
+  border: none;
+  background-color: #f3f5fc;
+}
+#criptografar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  width: 246px;
+  height: 54px;
+  background: #0a3871;
+  border-radius: 24px;
+  border-color: #0a3871;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+#descriptografar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  width: 246px;
+  height: 54px;
+  background: #d8dfe8;
+  border-radius: 24px;
+  border-color: #0a3871;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 360px;
+  height: 612px;
+  left: 1000px;
+  top: 40px;
+  border-radius: 32px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+#desenho {
+  width: 300px;
+  height: 286px;
+  left: 1032px;
+  top: 283px;
+}
+#digiteTexto {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a3871;
+}
+#avisoTexto {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #495057;
+}
+#nenhumaMensagem {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #343a40;
+}
+#textoCard{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #495057;
+display: flex;
+padding-left: 32px;
+padding-right: 32px;
+
+
+}

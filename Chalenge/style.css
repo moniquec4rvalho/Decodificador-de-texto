@@ -11,20 +11,19 @@
 body {
   display: flex;
   background-color: #f3f5fc;
-  max-height: 100%;
   font-size: 100%;
   gap: 80px;
+  font-family: "Inter";
 }
 main {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-}
-#digiteseutexto {
-  width: 680px;
-  height: 48px;
-  left: 240px;
-  top: 168px;
+  position: absolute;
+  justify-content: space-around;
+  top: 10%;
+  left: 10%;
+  width: 50%;
+  height: 88%;
 }
 #warning {
   display: flex;
@@ -33,15 +32,22 @@ main {
 }
 #buttons {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 24px;
+  
 }
 textarea {
   resize: none;
   width: 680px;
-  height: 1fr;
+  height: 100%;
   border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #0A3871;
   background-color: #f3f5fc;
+  outline: none;
 }
 #criptografar {
   display: flex;
@@ -58,7 +64,6 @@ textarea {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -81,7 +86,6 @@ textarea {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -91,12 +95,14 @@ textarea {
 }
 aside {
   display: flex;
+  position: absolute;
   flex-direction: column;
   background-color: #ffffff;
-  width: 360px;
-  height: 612px;
-  left: 1000px;
-  top: 40px;
+  max-width: 400px;
+  top: 2%;
+  width: 35%;
+  height: 96%;
+  right: 1%;
   border-radius: 32px;
   align-items: center;
   justify-content: center;
@@ -111,7 +117,7 @@ aside {
   top: 283px;
 }
 #digiteTexto {
-  font-family: Inter;
+
   font-size: 30px;
   font-weight: 400;
   line-height: 48px;
@@ -120,7 +126,7 @@ aside {
   color: #0a3871;
 }
 #avisoTexto {
-  font-family: Inter;
+
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -129,7 +135,6 @@ aside {
   color: #495057;
 }
 #nenhumaMensagem {
-  font-family: Inter;
   font-size: 22px;
   font-weight: 700;
   line-height: 29px;
@@ -138,16 +143,15 @@ aside {
   color: #343a40;
 }
 #textoCard{
-  font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-color: #495057;
-display: flex;
-padding-left: 32px;
-padding-right: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #495057;
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
 
 
 }

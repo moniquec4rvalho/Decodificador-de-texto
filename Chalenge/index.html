@@ -29,19 +29,28 @@
         </div>
         <div id="buttons">
           <button id="criptografar" onclick="cript()">Criptografar</button>
-          <button id="descriptografar">Desriptografar</button>
+          <button id="descriptografar" onclick="unCript()">
+            Desriptografar
+          </button>
         </div>
       </div>
     </main>
     <aside>
-      <span id="textCripted"></span>
-      <img id="desenho" src="imagens/DESENHO.svg" alt="Menina com a lupa" />
-      <h2 id="nenhumaMensagem">
-        <strong>Nenhuma mensagem <br />encontrada</strong>
-      </h2>
-      <h3 id="textoCard">
-        Digite um texto que você deseja criptografar ou descriptografar.
-      </h3>
+      <div id="text-result">
+        <span id="textCripted"></span>
+      </div>
+      <div id="cardCont">
+        <img id="desenho" src="imagens/DESENHO.svg" alt="Menina com a lupa" />
+        <h2 id="nenhumaMensagem">
+          <strong>Nenhuma mensagem <br />encontrada</strong>
+        </h2>
+        <h3 id="textoCard">
+          Digite um texto que você deseja criptografar ou descriptografar.
+        </h3>
+      </div>
+      <div hidden id="buttonPosition">
+        <button id="copy">Copiar</button>
+      </div>
     </aside>
   </body>
   <script type="text/javascript" src="criptografador.js"></script>

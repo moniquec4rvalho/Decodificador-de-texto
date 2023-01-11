@@ -14,12 +14,13 @@
       <img id="logo" src="imagens/logo.svg" alt="Logo Alura" />
     </header>
     <main>
-      
       <div>
-        <textarea 
+        <textarea
+          id="valueToCript"
           placeholder="Digite o seu texto"
-          rows="15" 
-          cols="1"></textarea>
+          rows="15"
+          cols="1"
+        ></textarea>
       </div>
       <div id="buttonsWrapper">
         <div id="warning">
@@ -27,15 +28,16 @@
           <h1 id="avisoTexto">Apenas letras minúsculas e sem acento.</h1>
         </div>
         <div id="buttons">
-          <button id="criptografar">Criptografar</button>
+          <button id="criptografar" onclick="cript()">Criptografar</button>
           <button id="descriptografar">Desriptografar</button>
         </div>
       </div>
     </main>
     <aside>
+      <span id="textCripted"></span>
       <img id="desenho" src="imagens/DESENHO.svg" alt="Menina com a lupa" />
       <h2 id="nenhumaMensagem">
-        <strong>Nenhuma mensagem <br/>encontrada</strong>
+        <strong>Nenhuma mensagem <br />encontrada</strong>
       </h2>
       <h3 id="textoCard">
         Digite um texto que você deseja criptografar ou descriptografar.

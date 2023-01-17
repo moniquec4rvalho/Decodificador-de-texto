@@ -1,4 +1,4 @@
-# Decodificador de texto com
+# Decodificador de texto
 Projeto desenvolvido durante o chalenge 1 do curso de programação ONE Alura em parceria com a Oracle.
 
 Todo desenvolvimento foi feito com
